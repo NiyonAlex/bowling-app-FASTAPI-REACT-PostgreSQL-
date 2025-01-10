@@ -1,0 +1,62 @@
+
+bowling-app/
+├── backend/
+│   ├── app/
+│   │   ├── api/
+│   │   │   └── endpoints.py
+│   │   │   └── llm.py
+│   │   ├── core/
+│   │   │   └── config.py
+│   │   ├── db/
+│   │   │   ├── base.py
+│   │   │   ├── models.py
+│   │   │   └── schemas.py
+│   │   └── main.py
+│   ├── migrations/
+│   ├── tests/
+│   │   ├── unit/
+│   │   │   └── test_game_logic.py
+│   │   └── integration/
+│   │       └── test_endpoints.py
+│   ├── .env
+│   ├── .gitignore
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   └── test.db
+├── frontend/
+│   ├── node_modules
+│   ├── public
+│   ├── src
+│   │   ├── __mocks__
+│   │   ├── components
+│   │   │   ├── Controls
+│   │   │   │   ├── Controls.css
+│   │   │   │   ├── Controls.js
+│   │   │   │   ├── Controls.test.js
+│   │   │   ├── Game
+│   │   │   │   ├── Game.css
+│   │   │   │   ├── Game.js
+│   │   │   ├── GameInfo
+│   │   │   │   ├── GameInfo.css
+│   │   │   │   ├── GameInfo.js
+│   │   │   │   ├── HistoryGraph.js
+│   │   │   ├── Scorecard
+│   │   │   │   ├── Scorecard.css
+│   │   │   │   ├── Scorecard.js
+│   │   │   │   ├── Scorecard.test.js
+│   │   ├── store
+│   │   │   ├── reducer.js
+│   │   │   ├── store.js
+│   │   ├── utils
+│   │   │   ├── __tests__
+│   │   │   ├── index.js
+│   ├── api.js
+│   ├── App.css
+│   ├── App.js
+│   ├── index.css
+│   ├── index.js
+│   ├── setupTests.js
+├── .env
+├── .gitignore
+├── docker-compose.yml
+└── Readme
